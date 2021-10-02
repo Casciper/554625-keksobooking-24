@@ -15,7 +15,7 @@ const randomFloat = (min, max, fixed) => {
   if((max < 0) || (min < 0)){
     window.console.log('В диапозоне доступны только положительные числа...');
   }else if(min > max){
-   window.console.log('Минимальное значение не может быть больше максимального...');
+    window.console.log('Минимальное значение не может быть больше максимального...');
   }else{
     return rand;
   }
